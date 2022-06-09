@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* top banner portion */
+#banner{
+    display: flex;
+    justify-content: flex-start;
+    padding: 4px;
+}
+#banner img{
+    width: 10%;
+}
+.top-nav{
+    margin-top: 30px;
+    margin-left: 22em;
+
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    font-family: sans-serif;
+}
+.top-nav ul{
+    display: inline-block;
+
+}
+
+.top-nav ul{
+    border-right: 1px solid rgb(0,0,0,0.3);
+    padding: 10px;
+
+}
+.top-nav ul a{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.naming{
+    margin-top: 10px;
+    line-height: 1.4;   
+}
+/* banner portion end here */
+
+/* navigation bar starts here */
+nav{
+    background-color: rgb(4, 4, 70);
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+nav .nav-bar{
+    display: inline-block;
+    border-right: 1px solid rgba(146, 136, 136, 0.3);
+    margin: 0;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+.nav-bar ul{
+    display: none;
+}
+.ni{
+    background-color: rgb(14, 177, 14);
+    color: #fff;
+}
+.more{
+    background-color: rgb(14, 177, 14);
+    color: #fff;
+    font-weight: bolder;
+}
